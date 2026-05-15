@@ -1,0 +1,68 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background: white;
+            color: black;
+        }
+
+        h1 {
+            border-bottom: 2px solid black;
+            padding-bottom: 8px;
+        }
+
+        h2 {
+            margin-top: 24px;
+            margin-bottom: 8px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 4px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 400px;
+            padding: 6px;
+            border: 1px solid black;
+            margin-bottom: 14px;
+            font-size: 14px;
+        }
+
+        .option {
+            font-weight: normal;
+            margin-bottom: 6px;
+        }
+
+        .option input {
+            margin-right: 6px;
+        }
+
+        button {
+            padding: 8px 20px;
+            margin-right: 10px;
+            font-size: 14px;
+            border: 2px solid black;
+            cursor: pointer;
+            background: white;
+        }
+
+        button[type="submit"] {
+            background: black;
+            color: white;
+        }
+
+        .success {
+            border: 2px solid black;
+            padding: 16px;
+            margin-bottom: 24px;
+            background: #f0f0f0;
+        }
+
+        .submitted-data {
+            margin-top: 8px;
+            font-size: 14px;
+            line-height: 1.8;
+        }
